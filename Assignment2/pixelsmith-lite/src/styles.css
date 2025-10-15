@@ -1,0 +1,8 @@
+:root { color-scheme: light dark; }
+body { margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+.app { display: grid; gap: 12px; padding: 16px; max-width: 900px; margin: 0 auto; }
+.toolbar { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.grid { display: grid; border: 1px solid #8884; width: max-content; user-select: none; }
+.cell { width: 18px; height: 18px; box-shadow: inset 0 0 0 1px #0001; cursor: crosshair; }
+.status { opacity: 0.8; font-size: 0.9rem; }
+button[aria-pressed="true"] { outline: 2px solid currentColor; border-radius: 6px; }
